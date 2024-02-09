@@ -71,14 +71,17 @@ checknumValue($numeroex4);
     echo "Conte o número de palavras em uma frase e imprima cada palavra em uma nova
     linha.<br>";
 
+
 $fraseexercicio5 = "esta frase possui cinco palavras";
 $contadorpalavra = str_word_count($fraseexercicio5);
 echo "'$fraseexercicio5' contem $contadorpalavra palavras!";
+echo "<br>";
+$palavraseparadas = explode(" ",$fraseexercicio5);
+print_r($palavraseparadas);
 
     ////////******************************************///
     /**6**/
-    echo "<br>5)<br>";
-    echo "Conte o número de palavras em uma frase e imprima cada palavra em uma nova
-    linha.<br>";
+    echo "<br>6)<br>";
+    echo "<br>";
 
 ?>
