@@ -65,22 +65,20 @@ function checknumValue($numero)
 $numeroex4 = 5;
 checknumValue($numeroex4);
 
-////////******************************************///
-/**4**/
+    ////////******************************************///
+    /**5**/
     echo "<br>5)<br>";
     echo "Conte o número de palavras em uma frase e imprima cada palavra em uma nova
     linha.<br>";
-    function checkPhraseCount($frase)
-    {
-        for($i = strlen($frase) -1 ; $i < $frase; $i--){
-            if($i == " ")
-            {
-                $contador += 1;
-            }
-        }
-        echo "A frase possui $contador palavras!";
-    }
-$fraseexercicio5 = "um Dois tresquatro!";
-checkPhraseCount($fraseexercicio5);
+
+$fraseexercicio5 = "esta frase possui cinco palavras";
+$contadorpalavra = str_word_count($fraseexercicio5);
+echo "'$fraseexercicio5' contem $contadorpalavra palavras!";
+
+    ////////******************************************///
+    /**6**/
+    echo "<br>5)<br>";
+    echo "Conte o número de palavras em uma frase e imprima cada palavra em uma nova
+    linha.<br>";
 
 ?>
